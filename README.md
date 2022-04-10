@@ -1,4 +1,10 @@
 
+## How to run:
+1. `npm i`
+2. `npm start` - to run the app
+3. `npm run test` - to run tests
+4. `npm run storybook` - to run storybook
+
 ## Notes:
 
 1. Your setup won't run, I had some conflicts in versions so I did my setup.
