@@ -51,7 +51,7 @@ export const SearchForm: React.FC<SearchFormProps> = ({ onLocationSelect }) => {
         onBlur={() => setTimeout(() => setIsListVisible(false), 200)}
       />
 
-      {!!locationsList?.length && (
+      {!!locationsList?.length && isListVisible && (
         <ul
           data-testid={"location-list"}
           className={"absolute w-full rounded-b-md shadow-md bg-white"}
